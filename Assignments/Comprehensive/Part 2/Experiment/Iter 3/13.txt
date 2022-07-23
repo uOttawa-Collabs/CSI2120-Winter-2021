@@ -1,0 +1,5 @@
+Number of cores:  8
+Maximum fork depth:  13
+1193
+99  98  94  92  83  82  73  64  45  38  35  27  24  21  17  10  6  5  2
+Total runtime: 2m2.0310531s

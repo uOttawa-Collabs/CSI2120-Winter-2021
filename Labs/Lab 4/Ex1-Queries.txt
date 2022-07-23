@@ -1,0 +1,17 @@
+1 ?- ['Ex1'].
+true.
+
+2 ?- book(X, _, 'Springer', _, _).
+X = 'Programming in Prolog'.
+
+3 ?- book(X, _, _, Y, _), Y > 1990.
+X = 'Programming in Prolog',
+Y = 2003 ;
+X = 'Prolog programming for artificial intelligence',
+Y = 2001.
+
+4 ?- book(X, _, _, _, Y), reader(Z, 'James Brown'), checkedOut(Z, Y).
+X = 'Programming in Prolog',
+Y = 'QA 76.73 .P76 C57 2003',
+Z = 1234567 ;
+false.

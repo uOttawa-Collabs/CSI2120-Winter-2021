@@ -1,0 +1,15 @@
+1 ?- ['Ex2'].
+true.
+
+2 ?- gmp(emma, zach).
+true.
+
+3 ?- gmp(marie, paul).
+false.
+
+4 ?- gmp(X, tim).
+X = josee ;
+false.
+
+5 ?- gmp(X, anne).
+false.
